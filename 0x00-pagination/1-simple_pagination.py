@@ -2,6 +2,8 @@
 """
 function returns the start and end index of a page
 """
+
+
 import csv
 from typing import List, Tuple
 
@@ -12,6 +14,7 @@ def index_range(page: int, page_size: int) -> Tuple:
     start_idx = (page - 1) * page_size
     end_idx = start_idx + page_size
     return (start_idx, end_idx)
+
 
 class Server:
     """class to paginate a database of popular baby names"""
