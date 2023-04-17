@@ -5,6 +5,8 @@ function returns the start and end index of a page
 import csv
 from typing import List, Tuple
 
+
+
 def index_range(page: int, page_size: int) -> Tuple:
     """function returns a tuple containing the start & end idx"""
     start_idx = (page - 1) * page_size
