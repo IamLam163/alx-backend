@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-from base_caching import BaseCaching
 """
 class MRUCache that inherits from BaseCaching and is a caching system
 """
+from base_caching import BaseCaching
 
 
 class MRUCache(BaseCaching):
