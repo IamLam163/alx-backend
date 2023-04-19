@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Implementing Least Recently Used algorithm
+"""
 from collections import deque
 from base_caching import BaseCaching
 
