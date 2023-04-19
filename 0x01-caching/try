@@ -1,0 +1,9 @@
+[]      -       -
+[]      put(A)      -
+[A]     put(B)      -
+[AB]    put(C)      -
+[ABC]   put(D)      -
+[ABCD]  put(E)     pop(A)
+[BCDE]  put(C)      -
+[BCDE]  put(F)     pop(B)
+[CDEF]  
