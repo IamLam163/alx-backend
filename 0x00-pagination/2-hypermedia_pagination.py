@@ -52,8 +52,20 @@ class Server:
             'page_size': len(page_data),
             'page': page,
             'data': page_data,
-            'next-page': None if page >= total_pages else page + 1,
+            'next-page': None if page > total_pages else page + 1,
             'prev_page': None if page - 1 == 0 else page - 1,
             'total_pages': total_pages,
         }
         return page_details
+
+
+"""
+server = Server()
+
+print(server.get_hyper(1, 2))
+print("---")
+print(server.get_hyper(2, 2))
+print("---")
+print(server.get_hyper(100, 3))
+print("---")
+print(server.get_hyper(3000, 100))"""
